@@ -1,5 +1,22 @@
 /*@import url(http://fonts.googleapis.com/css?family=Merienda+One);*/
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700');
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(fonts/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
 
 /* ##################################################################################################
 	PRESTASHOP CSS
@@ -2242,15 +2259,33 @@ tr.subitem > td:first-child + td {
 
 /* CLASSES PERSO */
 .uppercase{
-	text-transform: uppercase;
+	text-transform: uppercase !important;
+}
+.color-default{
+	color: #666 !important;
 }
 
-.featured {
-	font-size: 2em;
+.editorial_block .featured h2{
+	font-size: inherit;
+	color: inherit;
+}
+
+.featured{
+	font-size: 1.5em;
 	color: #f18820;
 }
+	.featured h1,
+	.featured h2,
+	.featured h3,
+	.featured h4,
+	.featured h5,
+	.featured h6{
+		/*color: inherit;
+		font-size: inherit;
+		padding: inherit;*/
+	}
 
-	.featured.block{
+	.featured.featured-block{
 		margin: .5em 1em;
 		padding: .5em;
 		text-align: center;
@@ -2261,12 +2296,14 @@ tr.subitem > td:first-child + td {
 	}
 
 	.featured em{
-
+		text-transform: uppercase;
 	}
 	.featured strong{
+		display: inline-block;
 		font-size: 2em;
 		font-weight: bold;
 		letter-spacing: 0.04em;
+		margin: .3em 0;
 		text-transform: uppercase;
 		text-shadow: 0 .005em white,
 								-0.005em 0 white,
