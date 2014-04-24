@@ -2208,7 +2208,7 @@ tr.subitem > td:first-child + td {
 	position: relative;
 }
 
-@media screen and (min-width: 1024px) {
+/*@media screen and (min-width: 1024px) {
 	#wrap-header {
 		position: fixed;
 		width: 100%;
@@ -2222,7 +2222,7 @@ tr.subitem > td:first-child + td {
 	.wrap-contenu {
 		width: inherit;
 	}
-}
+}*/
 
 .page-cms .block, #mycarouselHolder .nbs-flexisel-inner{
 	padding: 1em;
