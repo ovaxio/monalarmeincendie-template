@@ -2336,6 +2336,8 @@ tr.subitem > td:first-child + td {
 								-0.07em .065em #ffe9aa;
 	}
 
+
+/* STYLES FOR HOMEPAGE */
 #index #center_column,
 #index #columns{position: initial;}
 
@@ -2348,11 +2350,12 @@ tr.subitem > td:first-child + td {
 	width: 100%;
 }
 
+	#index .homepage-center{
+		margin: 0 auto;
+		width: 980px;
+	}
+
 #index .block.products_block{
 	margin-top: 580px;
-}
-
-#index .cms-page .homepage-center{
-	margin: 0 auto;
-	width: 980px;
+	text-align: center;
 }

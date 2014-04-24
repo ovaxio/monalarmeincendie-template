@@ -69,3 +69,7 @@
 #featured-products_block_center li .ajax_add_to_cart_button {display:none;}
 #featured-products_block_center li span.exclusive {display:none;}
 
+#featured-products_block_center .block_content {
+	width: 840px;
+	margin: 0 auto;
+}
