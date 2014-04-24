@@ -2256,8 +2256,9 @@ tr.subitem > td:first-child + td {
 		font-family: 'Open Sans', sans-serif !important;
 	}
 
-
-/* CLASSES PERSO */
+/***********************************************************************/
+/* 													CLASSES PERSO 														 */
+/***********************************************************************/
 .uppercase{
 	text-transform: uppercase !important;
 }
@@ -2334,3 +2335,24 @@ tr.subitem > td:first-child + td {
 								-0.065em .07em #ffcf44,
 								-0.07em .065em #ffe9aa;
 	}
+
+#index .center_column,
+#index .columns{position: initial;}
+
+#index .page-cms.cms-homepage{
+	background: #FFF8D0;
+	height: 600px;
+	left: 0;
+	position: absolute;
+	top: 150px;
+	width: 100%;
+}
+
+#index .block.products_block{
+	margin-top: 580px;
+}
+
+#index .cms-page .homepage-center{
+	margin: 0 auto;
+	width: 980px;
+}
