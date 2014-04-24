@@ -616,8 +616,10 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 		FOOTER
 ************************************************************************************************ */
 #footer {
-	color:#fff;font-size: 0.8em;
+	color:#fff;
+	font-size: 0.8em;
 	line-height: 0.8em;/*background:#333*/
+	width: 100%;
 }
 	.blockcategories_footer,
 	#footer .myaccount ,
@@ -2172,6 +2174,7 @@ tr.subitem > td:first-child + td {
 /* styles mon alarme incendie */
 #wrap-header {
 	box-shadow: 0 2px 2px 0px rgba(0,0,0,0.3);
+	width: 100%;
 }
 
 .wrap-contenu {
