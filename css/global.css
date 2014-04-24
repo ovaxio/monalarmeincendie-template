@@ -2336,8 +2336,8 @@ tr.subitem > td:first-child + td {
 								-0.07em .065em #ffe9aa;
 	}
 
-#index .center_column,
-#index .columns{position: initial;}
+#index #center_column,
+#index #columns{position: initial;}
 
 #index .page-cms.cms-homepage{
 	background: #FFF8D0;
